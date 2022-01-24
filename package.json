@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/matheusgomes062/clean-node-api/issues"
   },
-  "homepage": "https://github.com/matheusgomes062/clean-node-api#readme"
+  "homepage": "https://github.com/matheusgomes062/clean-node-api#readme",
+  "dependencies": {
+    "git-commit-msg-linter": "^4.0.7"
+  }
 }
