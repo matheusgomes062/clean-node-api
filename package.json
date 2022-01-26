@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/matheusgomes062/clean-node-api#readme",
   "dependencies": {
-    "git-commit-msg-linter": "^4.0.7"
+    "git-commit-msg-linter": "^4.0.7",
+    "ts-node": "^10.4.0"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
