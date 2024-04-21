@@ -40,6 +40,7 @@ export class SignUpController implements Controller {
 
       return successResponse(account)
     } catch (error) {
+      console.log(error)
       return internalServerError()
     }
   }
